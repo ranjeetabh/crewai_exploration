@@ -1,0 +1,11 @@
+prefix=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

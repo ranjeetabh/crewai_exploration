@@ -1,0 +1,13 @@
+prefix=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv
+exec_prefix=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv
+libdir=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv/lib
+sharedlibdir=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv/lib
+includedir=/Users/ranjeeta/Desktop/Interview Questions/CrewAI_Coding/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
