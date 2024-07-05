@@ -1,2 +1,2 @@
 # crewai_exploration
-Exploring agents interaction using crewai
+Exploring agent interaction using crewai
